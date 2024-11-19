@@ -23,13 +23,6 @@ const SecVerb = prompt ('Give me a Past Tense Verb');
 const Adj = prompt ('Give me a Adjective');
 const Subject = prompt ('Give me a School Subject');
 
-
-
-
-
-
-
-
 let myStory1 = `One ${Weather} ${Day} James Carmicheal was getting ready for school. All of a sudden a gnome appeared!`;
 console.log(myStory1);
 document.getElementById('story1').innerHTML = myStory1;
@@ -57,7 +50,6 @@ James then once again ${SecVerb} through the portal to get home and get ready fo
 Unfortunately he was ${Adj} from the adventure and passed out, missing his very important ${Subject} class and would ultimately fail that class because of it. Poor James.`;
 console.log(myStory6);
 document.getElementById('story6').innerHTML = myStory6;
-
 
  
 
