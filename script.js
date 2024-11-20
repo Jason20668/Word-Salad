@@ -23,20 +23,20 @@ const SecVerb = prompt ('Give me a Past Tense Verb');
 const Adj = prompt ('Give me a Adjective');
 const Subject = prompt ('Give me a School Subject');
 
-let myStory1 = `One ${Weather} ${Day} James Carmicheal was getting ready for school. All of a sudden a gnome appeared!`;
+let myStory1 = `<b>One ${Weather} ${Day} James Carmicheal was getting ready for school. All of a sudden a gnome appeared!</b>`;
 console.log(myStory1);
 document.getElementById('story1').innerHTML = myStory1;
 
-let myStory2 = `She had a floppy ${Color} hat and was ${GnoNum} inches tall. She said in a ${VoiAdj} voice, "My name is ${Name} and we need your help James Carmicheal.`;
+let myStory2 = `<b>She had a floppy ${Color} hat and was ${GnoNum} inches tall. She said in a ${VoiAdj} voice, "My name is ${Name} and we need your help James Carmicheal.</b>`;
 console.log(myStory2);
 document.getElementById('story2').innerHTML = myStory2;
 
-let myStory3 = `Your the only person short enough to be able to go through the portal and save ${Town}!". James happily agreed and ${FirVerb} through the portal to ${Town}.`;
+let myStory3 = `<b>Your the only person short enough to be able to go through the portal and save ${Town}!". James happily agreed and ${FirVerb} through the portal to ${Town}.</b>`;
 console.log(myStory3);
 document.getElementById('story3').innerHTML = myStory3;
 
-let myStory4 = `When he got there we was surrounded by ${GnoAmount} gnomes all of which looked very ${Emotion}. He was told that they wanted to make a ${BakedG} for the festival today but the
- ${BakedI} was on the top shelf and they hadn't invented stepstools yet.`;
+let myStory4 = `<b>When he got there we was surrounded by ${GnoAmount} gnomes all of which looked very ${Emotion}. He was told that they wanted to make a ${BakedG} for the festival today but the
+ ${BakedI} was on the top shelf and they hadn't invented stepstools yet.</b>`;
 console.log(myStory4);
 document.getElementById('story4').innerHTML = myStory4;
 
