@@ -23,13 +23,10 @@ const SecVerb = prompt ('Give me a Past Tense Verb');
 const Adj = prompt ('Give me a Adjective');
 const Subject = prompt ('Give me a School Subject');
 
-let myStory1 = `One ${Weather} ${Day} James Carmicheal was getting ready for school. All of a sudden a gnome appeared!`;
+let myStory1 = `One ${Weather} ${Day} James Carmicheal was getting ready for school. All of a sudden a gnome appeared! 
+She had a floppy ${Color} hat and was ${GnoNum} inches tall. She said in a ${VoiAdj} voice, "My name is ${Name} and we need your help James Carmicheal.`;
 console.log(myStory1);
 document.getElementById('story1').innerHTML = myStory1;
-
-let myStory2 = `She had a floppy ${Color} hat and was ${GnoNum} inches tall. She said in a ${VoiAdj} voice, "My name is ${Name} and we need your help James Carmicheal.`;
-console.log(myStory2);
-document.getElementById('story2').innerHTML = myStory2;
 
 let myStory3 = `Your the only person short enough to be able to go through the portal and save ${Town}!". James happily agreed and ${FirVerb} through the portal to ${Town}.`;
 console.log(myStory3);
